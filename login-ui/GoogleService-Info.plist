@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>188070327043-rtnpjcgfo2fgs0a1pap9d69s81vudom2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.188070327043-rtnpjcgfo2fgs0a1pap9d69s81vudom2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBxcs1Sf3O1kQQ-YWcS5AMOoZ6FldyQbW0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>188070327043</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.sergiuwaxmann.login-ui</string>
+	<key>PROJECT_ID</key>
+	<string>login-ui-sergiuwaxmann</string>
+	<key>STORAGE_BUCKET</key>
+	<string>login-ui-sergiuwaxmann.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:188070327043:ios:67f12cf8f23882b8996f36</string>
+	<key>DATABASE_URL</key>
+	<string>https://login-ui-sergiuwaxmann.firebaseio.com</string>
+</dict>
+</plist>
