@@ -57,6 +57,7 @@ struct LoginView : View {
                     
                     TextField("EMAIL", text: $LoginModel.email)
                         .autocapitalization(.none)
+                        .disableAutocorrection(true)
                 }
                 .padding()
                 .background(Color.white.opacity(LoginModel.email == "" ? 0 : 0.12))
