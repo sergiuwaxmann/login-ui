@@ -14,12 +14,12 @@ struct ContentView: View {
         NavigationView {
             
             if logged {
-                Text("Hello World!")
+                HomeView()
                     .navigationTitle("Home")
                     .navigationBarHidden(false)
                     .preferredColorScheme(.light)
             } else {
-                Login()
+                LoginView()
                     .preferredColorScheme(.dark)
                     .navigationBarHidden(true)
             }

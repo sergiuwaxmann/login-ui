@@ -10,6 +10,8 @@
 		3802B258254D9A410028111E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3802B257254D9A410028111E /* GoogleService-Info.plist */; };
 		3802B268254D9AD10028111E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3802B267254D9AD10028111E /* LoginView.swift */; };
 		3802B26C254D9AE60028111E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3802B26B254D9AE60028111E /* LoginViewModel.swift */; };
+		3802B26F254DAA940028111E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3802B26E254DAA940028111E /* HomeView.swift */; };
+		3802B272254DAD790028111E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3802B271254DAD790028111E /* LoadingView.swift */; };
 		38974CC4254CD45400A9DEB8 /* login_uiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38974CC3254CD45400A9DEB8 /* login_uiApp.swift */; };
 		38974CC6254CD45400A9DEB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38974CC5254CD45400A9DEB8 /* ContentView.swift */; };
 		38974CC8254CD45500A9DEB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38974CC7254CD45500A9DEB8 /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 		3802B257254D9A410028111E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3802B267254D9AD10028111E /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3802B26B254D9AE60028111E /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		3802B26E254DAA940028111E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3802B271254DAD790028111E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		38974CC0254CD45400A9DEB8 /* login-ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "login-ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38974CC3254CD45400A9DEB8 /* login_uiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login_uiApp.swift; sourceTree = "<group>"; };
 		38974CC5254CD45400A9DEB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				3802B267254D9AD10028111E /* LoginView.swift */,
+				3802B26E254DAA940028111E /* HomeView.swift */,
+				3802B271254DAD790028111E /* LoadingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -235,7 +241,9 @@
 				3802B26C254D9AE60028111E /* LoginViewModel.swift in Sources */,
 				3802B268254D9AD10028111E /* LoginView.swift in Sources */,
 				38974CC6254CD45400A9DEB8 /* ContentView.swift in Sources */,
+				3802B26F254DAA940028111E /* HomeView.swift in Sources */,
 				38974CC4254CD45400A9DEB8 /* login_uiApp.swift in Sources */,
+				3802B272254DAD790028111E /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
